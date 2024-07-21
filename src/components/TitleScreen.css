@@ -1,0 +1,38 @@
+.title-screen {
+    width: 640px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-screen .spacer {
+    flex: 1 1;
+}
+
+.title-screen .title {
+    display: block;
+    text-align: center;
+    font-size: xx-large;
+    font-family: "Pixelify Sans", sans-serif;
+    text-align: center;
+}
+
+.title-screen .button-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.title-screen .button {
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    padding: 0.8rem 1.2rem;
+    cursor: pointer;
+}
+
+.title-screen .copyright {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: small;
+}

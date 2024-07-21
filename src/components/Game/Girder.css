@@ -1,0 +1,64 @@
+.girder-game {
+    width: 640px;
+    height: 480px;
+    position: relative;
+    background-color: #C7FFFD;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.girder-game .girder-container {
+    width: 480px;
+    height: 800px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: 82px;
+}
+
+.girder-game .girder-chain {
+    width: 30px;
+    height: 720px;
+    margin: auto;
+    background-position: center;
+    background-repeat: repeat-y;
+}
+
+.girder-game .girder-main {
+    width: 480px;
+    height: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.girder-game .decorative {
+    width: 480px;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 205px;
+}
+
+.girder-game .decorative.start {
+    margin-left: -400px;
+}
+
+.girder-game .decorative.end {
+    margin-left: 560px;
+}
+
+.girder-game .girder-target {
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    border: 4px solid rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    border-style: dashed;
+    margin-left: 70px;
+    margin-top: 190px;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,52 @@
+.clock-game {
+    width: 640px;
+    height: 480px;
+    display: block;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.clock-game .clockface {
+    width: 400px;
+    height: 400px;
+    margin-left: 120px;
+    margin-top: 40px;
+    background: #FFF;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.clock-game .clock-hand-container {
+    width: 10px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    margin-left: -5px;
+}
+
+.clock-game .clock-hand {
+    width: 10px;
+    height: 150px;
+    background-color: #000;
+    display: block;
+    margin-top: 50px;
+}
+
+.clock-game .clock-hand.small {
+    height: 100px;
+    margin-top: 100px;
+}
+
+.clock-game .clock-centre {
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -15px;
+    margin-left: -15px;
+}
+

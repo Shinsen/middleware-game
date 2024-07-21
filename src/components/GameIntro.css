@@ -1,0 +1,41 @@
+.game-intro {
+    width: 640px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+}
+
+.game-intro .spacer {
+    flex: 1 1;
+}
+
+.game-intro .title {
+    text-align: center;
+    font-size: xx-large;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.game-intro .number {
+    text-align: center;
+    font-size: x-large;
+    margin-top: 10px;
+}
+
+.game-intro .heart-container {
+    text-align: center;
+}
+
+.game-intro .heart-container .heart {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 10px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.game-intro .heart-container .heart:last-child {
+    margin-right: 0;
+}
